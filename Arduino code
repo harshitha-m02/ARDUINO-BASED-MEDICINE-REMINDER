@@ -36,12 +36,12 @@ int bS4 = 0;         // current state of the button
 int lBS4 = 0;
 
 // configure the pins to the right mode
-int buzz8amHH = 12;          //    HH - hours         ##Set these for reminder time in 24hr Format 
-int buzz8amMM = 57;          //    MM - Minute
+int buzz8amHH = 8;          //    HH - hours         ##Set these for reminder time in 24hr Format 
+int buzz8amMM = 0;          //    MM - Minute
 int buzz8amSS = 0;          //    SS - Seconds
 
-int buzz2pmHH = 13;          //    HH - hours
-int buzz2pmMM = 14;          //    MM - Minute
+int buzz2pmHH = 14;          //    HH - hours
+int buzz2pmMM = 0;          //    MM - Minute
 int buzz2pmSS = 0;          //    SS - Seconds
 
 int buzz8pmHH = 20;          //    HH - hours
